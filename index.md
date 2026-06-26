@@ -26,10 +26,13 @@ Last updated: 2026-06-26
 - [[sponsoring]] , 100% for publicity, 50% for benefits (representation) (verify_live).
 - [[streaming-subscriptions]] , Spotify etc. only if genuinely professional (verify_live).
 - [[reading-glasses]] , up to 50%, dual-use scrutiny (verify_live).
-- _planned: gifts-and-relations, home-office, clothing, international-passport, kilometer-allowance_
+- [[international-passport]] , deductible for genuine business travel, with proof.
+- _planned: gifts-and-relations, home-office, clothing, kilometer-allowance_
 
 ### corporate-tax/
-- _planned: vennootschapsbelasting-basics, voorafbetalingen (advance payments)_
+- [[corporate-tax-basics]] , 25% standard, 20% on first EUR 100k for small companies + conditions (verify_live).
+- [[advance-payments]] , quarterly prepayment to avoid the surcharge (verify_live).
+- _planned: dbi-deduction, vvpr-bis-dividends, notional-interest_
 
 ### payroll-director/
 - [[social-contributions-self-employed]] , RSVZ social contributions for self-employed/director (verify_live).
