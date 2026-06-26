@@ -39,7 +39,9 @@ Last updated: 2026-06-26
 - [[training-costs]] , training deductible + KMO-portefeuille subsidy (Flanders) (verify_live).
 - [[ev-charging-reimbursement]] , reimburse EV home-charging at actual cost or per-kWh forfait (verify_live).
 - [[toll-peage]] , toll/peage is a company cost; private trips via the car VAA.
-- _planned: home-office, clothing, kilometer-allowance_
+- [[home-office]] , tax-free home-office allowance ~EUR 161/month (verify_live).
+- [[kilometer-allowance]] , tax-free per-km allowance for own-car business trips (verify_live).
+- _planned: clothing_
 
 ### corporate-tax/
 - [[corporate-tax-basics]] , 25% standard, 20% on first EUR 100k for small companies + conditions (verify_live).
@@ -60,7 +62,8 @@ Last updated: 2026-06-26
 
 ### year-end/
 - [[annual-accounts-nbb]] , filing model, 7-month deadline, XBRL, 2026 fees (verify_live).
-- _planned: depreciation, provisions, closing-entries_
+- [[depreciation]] , how to book depreciation; book-vs-tax (grounded by [[depreciation-advies]]).
+- _planned: provisions, closing-entries_
 
 ### workflows/ (SOPs the agent runs)
 - [[vat-period-prep]] , prepare a periodic VAT return for review (never auto-file).
@@ -72,11 +75,11 @@ Last updated: 2026-06-26
 ## references/cbn-adviezen/ (PHASE 2 , authoritative grounding)
 
 Distilled CBN/CNC adviezen that ground the practice pages (citation substrate, not a replacement). See the PHASE 2 note in the loop charter.
-- [[depreciation]] , CBN principles for depreciating fixed assets (linear/degressive, economic life).
-- [[provisions]] , CBN principles for provisions for risks and charges (prudence; art. 33 KB W.Venn.).
-- [[distribution-test]] , the WVV net-asset + liquidity tests a BV must pass before any payout.
-- [[valuation-rules]] , going concern, acquisition value, consistency, prudence (the valuation frame).
-- [[size-criteria]] , the legal source of small/micro thresholds (WVV art. 1:24/1:25) (verify_live).
+- [[depreciation-advies]] , CBN principles for depreciating fixed assets (linear/degressive, economic life).
+- [[provisions-advies]] , CBN principles for provisions for risks and charges (prudence; art. 33 KB W.Venn.).
+- [[distribution-test-advies]] , the WVV net-asset + liquidity tests a BV must pass before any payout.
+- [[valuation-rules-advies]] , going concern, acquisition value, consistency, prudence (the valuation frame).
+- [[size-criteria-advies]] , the legal source of small/micro thresholds (WVV art. 1:24/1:25) (verify_live).
 
 ## Reserved files
 
