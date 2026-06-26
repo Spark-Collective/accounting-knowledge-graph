@@ -41,7 +41,7 @@ Last updated: 2026-06-26
 - [[toll-peage]] , toll/peage is a company cost; private trips via the car VAA.
 - [[home-office]] , tax-free home-office allowance ~EUR 161/month (verify_live).
 - [[kilometer-allowance]] , tax-free per-km allowance for own-car business trips (verify_live).
-- _planned: clothing_
+- [[clothing]] , only specific professional clothing is deductible; ordinary clothing is not.
 
 ### corporate-tax/
 - [[corporate-tax-basics]] , 25% standard, 20% on first EUR 100k for small companies + conditions (verify_live).
@@ -82,6 +82,8 @@ Distilled CBN/CNC adviezen that ground the practice pages (citation substrate, n
 - [[distribution-test-advies]] , the WVV net-asset + liquidity tests a BV must pass before any payout.
 - [[valuation-rules-advies]] , going concern, acquisition value, consistency, prudence (the valuation frame).
 - [[size-criteria-advies]] , the legal source of small/micro thresholds (WVV art. 1:24/1:25) (verify_live).
+- [[impairments-advies]] , CBN principles for impairments on receivables/inventory (booking + reversal).
+- [[formation-costs-advies]] , capitalizing/amortizing formation costs (rubric 20, min 20%/yr).
 
 ## Reserved files
 
