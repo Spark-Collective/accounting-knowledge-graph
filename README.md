@@ -40,4 +40,4 @@ Contributions welcome , see [`CONTRIBUTING.md`](CONTRIBUTING.md). The short vers
 
 ## License
 
-See [`LICENSE`](LICENSE).
+[Apache License 2.0](LICENSE), Copyright Spark Collective BV. Free to use, modify, and redistribute (including commercially) with attribution and the license notice.

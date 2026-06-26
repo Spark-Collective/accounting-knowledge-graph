@@ -42,4 +42,4 @@ This is a general reference for preparing working papers, **not** tax, legal, or
 
 ## License
 
-By contributing, you agree your contributions are licensed under the repository's `LICENSE`. (See the README for the current license.)
+The project is licensed under the [Apache License 2.0](LICENSE). By contributing, you agree that your contributions are licensed under the same Apache-2.0 terms (inbound = outbound).
