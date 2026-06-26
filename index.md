@@ -34,7 +34,9 @@ Last updated: 2026-06-26
 - [[reading-glasses]] , up to 50%, dual-use scrutiny (verify_live).
 - [[international-passport]] , deductible for genuine business travel, with proof.
 - [[fines]] , traffic/other fines paid by the company but never deductible.
-- _planned: gifts-and-relations, home-office, clothing, kilometer-allowance_
+- [[gifts-relatiegeschenk]] , business gifts 50%; VAT one gift/client/year under EUR 50 (verify_live).
+- [[hybrid-car-rules-2026]] , hybrids ordered from 2026 no longer deductible in the company (verify_live).
+- _planned: home-office, clothing, kilometer-allowance_
 
 ### corporate-tax/
 - [[corporate-tax-basics]] , 25% standard, 20% on first EUR 100k for small companies + conditions (verify_live).
@@ -48,6 +50,7 @@ Last updated: 2026-06-26
 - [[director-remuneration]] , salary vs dividend; the EUR 45k threshold (verify_live).
 - [[benefits-in-kind-vaa]] , VAA on car/housing/phone/internet; valuation + forfaits (verify_live).
 - [[per-diem-domestic-travel]] , tax-free meal allowance for Belgian business trips (verify_live).
+- [[withholding-on-director-pay]] , bedrijfsvoorheffing withheld + remitted on director salary (verify_live).
 
 ### year-end/
 - [[annual-accounts-nbb]] , filing model, 7-month deadline, XBRL, 2026 fees (verify_live).
