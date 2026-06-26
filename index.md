@@ -89,6 +89,7 @@ Distilled CBN/CNC adviezen that ground the practice pages (citation substrate, n
 - [[size-criteria-advies]] , the legal source of small/micro thresholds (WVV art. 1:24/1:25) (verify_live).
 - [[impairments-advies]] , CBN principles for impairments on receivables/inventory (booking + reversal).
 - [[formation-costs-advies]] , capitalizing/amortizing formation costs (rubric 20, min 20%/yr).
+- [[research-development-advies]] , research expensed; development costs capitalizable (rubric 21) under conditions.
 
 ## Reserved files
 
