@@ -17,7 +17,9 @@ Last updated: 2026-06-26
 ### vat/
 - [[vat-rates-and-regimes]] , VAT rates, the small-enterprise exemption, special regimes (verify_live).
 - [[periodic-vat-return-intervat]] , the periodic BTW return + how it is filed.
-- _planned: intracommunity-and-medecontractant, peppol-e-invoicing, annual-client-listing_
+- [[intracommunity-and-medecontractant]] , reverse charge: 0% invoice + mandatory mentions (verify_live).
+- [[peppol-e-invoicing]] , structured B2B e-invoicing mandatory from 2026 (verify_live).
+- _planned: annual-client-listing, ec-sales-list_
 
 ### deductible-costs/
 - [[car-and-mobility]] , deductibility of car/mobility costs (verify_live).
@@ -38,7 +40,7 @@ Last updated: 2026-06-26
 ### payroll-director/
 - [[social-contributions-self-employed]] , RSVZ social contributions for self-employed/director (verify_live).
 - [[director-remuneration]] , salary vs dividend; the EUR 45k threshold (verify_live).
-- _planned: benefits-in-kind-VAA_
+- [[benefits-in-kind-vaa]] , VAA on car/housing/phone/internet; valuation + forfaits (verify_live).
 
 ### year-end/
 - [[annual-accounts-nbb]] , filing model, 7-month deadline, XBRL, 2026 fees (verify_live).
