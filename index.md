@@ -12,8 +12,9 @@ Last updated: 2026-06-26
 
 ### bookkeeping/
 - [[chart-of-accounts-mar]] , the Belgian standardized chart (MAR / PCMN), classes 0-7.
+- [[double-entry-basics]] , debit/credit, journals + ledger, balance sheet vs P&L.
 - [[document-retention]] , keep books/invoices 10 years (15-25 for real estate) (verify_live).
-- _planned: double-entry-basics, journals_
+- _planned: journals_
 
 ### vat/
 - [[vat-rates-and-regimes]] , VAT rates, the small-enterprise exemption, special regimes (verify_live).
@@ -50,7 +51,9 @@ Last updated: 2026-06-26
 
 ### workflows/ (SOPs the agent runs)
 - [[vat-period-prep]] , prepare a periodic VAT return for review (never auto-file).
-- _planned: month-end-close, coda-bank-reconciliation, booking-a-purchase-invoice, expense-categorization_
+- [[booking-a-purchase-invoice]] , capture, split VAT, classify deductibility, book.
+- [[month-end-close]] , monthly routine to get the books complete + reconciled.
+- _planned: coda-bank-reconciliation, expense-categorization_
 
 ## Reserved files
 
