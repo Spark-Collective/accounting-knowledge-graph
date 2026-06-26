@@ -3,6 +3,8 @@ type: rule
 title: Withholding tax on director pay (bedrijfsvoorheffing)
 description: The company withholds advance income tax on the director's salary and remits it to the authority.
 tags: [payroll-director, bv, belgium, verify-live]
+relations:
+  requires: [director-remuneration]
 sources: [https://help.astro.tax/nl/articles/10053108-hoe-werkt-de-bedrijfsvoorheffing-voor-bestuurders-van-een-vennootschap, https://financien.belgium.be]
 confidence: medium
 created: 2026-06-26

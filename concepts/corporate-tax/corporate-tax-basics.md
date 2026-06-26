@@ -3,6 +3,9 @@ type: rule
 title: Corporate tax basics (vennootschapsbelasting)
 description: Standard 25% rate, the 20% reduced rate on the first EUR 100k, and how the base is built.
 tags: [corporate-tax, bv, belgium, verify-live]
+relations:
+  requires: [company-size-criteria]
+  affects: [advance-payments]
 sources: [https://financien.belgium.be, https://nl.wikipedia.org/wiki/Belgische_vennootschapsbelasting]
 confidence: medium
 created: 2026-06-26

@@ -3,6 +3,9 @@ type: rule
 title: VVPR-bis (reduced withholding tax on dividends)
 description: Small companies can pay dividends at 15% withholding (rising to 18% from 1 July 2026) instead of 30%.
 tags: [corporate-tax, bv, belgium, verify-live]
+relations:
+  requires: [company-size-criteria]
+  alternative_to: [liquidation-reserve, director-remuneration]
 sources: [https://financien.belgium.be, https://help.astro.tax/nl]
 confidence: medium
 created: 2026-06-26

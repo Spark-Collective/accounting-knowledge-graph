@@ -3,6 +3,10 @@ type: rule
 title: Director remuneration (salary vs dividend)
 description: How the director is paid and the salary-vs-dividend optimization for a one-person BV.
 tags: [payroll-director, corporate-tax, bv, belgium, verify-live]
+relations:
+  unlocks: [corporate-tax-basics]
+  affects: [social-contributions-self-employed, withholding-on-director-pay]
+  alternative_to: [vvpr-bis-dividends]
 sources: [https://financien.belgium.be, https://www.rsvz-inasti.fgov.be/]
 confidence: medium
 created: 2026-06-26

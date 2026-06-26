@@ -3,6 +3,8 @@ type: reference
 title: CBN advies , distribution test (net-asset + liquidity)
 description: The WVV double test a BV must pass before distributing profit; per the CBN/CNC.
 tags: [cbn-advies, corporate-tax, bv, belgium]
+relations:
+  gates: [vvpr-bis-dividends, liquidation-reserve, director-remuneration]
 sources: [https://www.cbn-cnc.be/nl, https://www.ejustice.just.fgov.be/]
 confidence: medium
 created: 2026-06-26

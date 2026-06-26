@@ -3,6 +3,8 @@ type: rule
 title: Social contributions for the self-employed / director
 description: How self-employed social security works (RSVZ/INASTI); rates to verify live.
 tags: [payroll-director, eenmanszaak, bv, belgium, verify-live]
+relations:
+  affects: [director-remuneration]
 sources: [https://www.rsvz-inasti.fgov.be/, https://www.nisse.be/en]
 confidence: medium
 created: 2026-06-26

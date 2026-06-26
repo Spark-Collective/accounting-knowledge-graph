@@ -68,6 +68,28 @@ review_after: YYYY-MM-DD         # re-verify against sources by this date
 - **Distil, never paste verbatim.** Write every page in Spark's own words and structure; cite the source in `sources` and mark the paragraph `[source]`. astro.tax is a **collaboration source** (used with Astro's agreement, see [[sources]]) , learn from it, don't reproduce its phrasing.
 - **Append a `log.md` line** for every substantive change.
 
+## Typed edges (`relations:`) , the graph layer
+
+`[[wikilinks]]` are for reading; a `relations:` frontmatter block adds the **machine-traversable** layer that turns this from a wiki into a graph. Optional per page, but encouraged for relational clusters (payout, year-end). The `[[wikilinks]]` in the body stay either way.
+
+```yaml
+relations:
+  unlocks: [corporate-tax-basics]
+  affects: [social-contributions-self-employed, withholding-on-director-pay]
+  alternative_to: [vvpr-bis-dividends]
+```
+
+- **Targets are page basenames** (the same name you'd put in `[[...]]`), as a list per predicate.
+- **Predicate vocabulary (controlled , add to this list before using a new one):**
+  - `requires` , B must hold for A (a condition/eligibility).
+  - `unlocks` , A enables B (e.g. enough salary unlocks the reduced rate).
+  - `gates` , A is a legal/precondition gate on B (no B until A passes).
+  - `grounded_by` , A (practice) is grounded by B (a `-advies` reference).
+  - `affects` , A changes B's computation or outcome.
+  - `alternative_to` , A and B are competing options for the same goal.
+  - `part_of` , A is a component of B.
+- **Inverses are computed, not stored** , `tools/graph.py` reads all `relations:` and shows both outbound and inbound for a node, and validates that every target resolves and every predicate is in the vocab.
+
 ## Retrieval (how the agent uses this)
 
 1. Read `index.md` to find the relevant concept/workflow page(s).

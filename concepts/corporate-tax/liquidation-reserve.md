@@ -3,6 +3,9 @@ type: rule
 title: Liquidation reserve (liquidatiereserve)
 description: A KMO payout mechanism; the 2025 reform shortens the wait and adjusts the rate (not yet final).
 tags: [corporate-tax, bv, belgium, verify-live]
+relations:
+  alternative_to: [vvpr-bis-dividends]
+  affects: [corporate-tax-basics]
 sources: [https://help.astro.tax/nl/articles/11111813-nieuwe-regels-liquidatiereserve-2025-alles-over-kortere-wachttermijn-en-belastingtarieven, https://financien.belgium.be]
 confidence: low
 created: 2026-06-26
