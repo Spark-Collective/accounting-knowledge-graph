@@ -12,6 +12,7 @@ Last updated: 2026-06-26
 
 ### bookkeeping/
 - [[chart-of-accounts-mar]] , the Belgian standardized chart (MAR / PCMN), classes 0-7.
+- [[pcmn-account-codes]] , the common sub-account codes a management BV posts to.
 - [[double-entry-basics]] , debit/credit, journals + ledger, balance sheet vs P&L.
 - [[document-retention]] , keep books/invoices 10 years (15-25 for real estate) (verify_live).
 - _planned: journals_
@@ -20,6 +21,7 @@ Last updated: 2026-06-26
 - [[vat-rates-and-regimes]] , VAT rates, the small-enterprise exemption, special regimes (verify_live).
 - [[vat-deduction-conditions]] , when input VAT is recoverable (professional, correct invoice, right to deduct).
 - [[periodic-vat-return-intervat]] , the periodic BTW return + how it is filed.
+- [[vat-return-grilles]] , the return boxes 00-91, grouped (verify_live; 2025 deadline/provisierekening changes).
 - [[intracommunity-and-medecontractant]] , reverse charge: 0% invoice + mandatory mentions (verify_live).
 - [[peppol-e-invoicing]] , structured B2B e-invoicing mandatory from 2026 (verify_live).
 - [[annual-client-listing]] , yearly list of Belgian VAT customers over EUR 250, due 31 Mar (verify_live).
@@ -72,6 +74,7 @@ Last updated: 2026-06-26
 - [[month-end-close]] , monthly routine to get the books complete + reconciled.
 - [[coda-bank-reconciliation]] , import the CODA file, match lines, tie the bank balance.
 - [[expense-categorization]] , route a cost to account + deductibility + VAT treatment.
+- [[classification-protocol]] , behaviour under uncertainty: conservative defaults + Classified/Assumed/Needs-Input.
 - [[year-end-close]] , close the year, compute tax, file the annual accounts + return.
 
 ## references/cbn-adviezen/ (PHASE 2 , authoritative grounding)
