@@ -37,6 +37,8 @@ Last updated: 2026-06-26
 - [[gifts-relatiegeschenk]] , business gifts 50%; VAT one gift/client/year under EUR 50 (verify_live).
 - [[hybrid-car-rules-2026]] , hybrids ordered from 2026 no longer deductible in the company (verify_live).
 - [[training-costs]] , training deductible + KMO-portefeuille subsidy (Flanders) (verify_live).
+- [[ev-charging-reimbursement]] , reimburse EV home-charging at actual cost or per-kWh forfait (verify_live).
+- [[toll-peage]] , toll/peage is a company cost; private trips via the car VAA.
 - _planned: home-office, clothing, kilometer-allowance_
 
 ### corporate-tax/
@@ -46,6 +48,7 @@ Last updated: 2026-06-26
 - [[director-loan-rekening-courant]] , borrowing from the company; debit-R/C interest (verify_live).
 - [[liquidation-reserve]] , KMO payout mechanism; 2025 reform (shorter wait) pending (verify_live).
 - [[investment-deduction]] , deduct part of qualifying investments; reformed from 2025 (verify_live).
+- [[capital-gains-tax-on-shares]] , new ~10% solidarity contribution; large-vs-small participation (verify_live).
 - _planned: dbi-deduction, notional-interest_
 
 ### payroll-director/
