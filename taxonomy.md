@@ -19,3 +19,4 @@ Every tag used in a page's frontmatter must appear here. Need a new tag? Add it 
 - `peppol` , relates to e-invoicing / Peppol.
 - `verify-live` , page contains a changeable fact to re-check at use time (mirrors the `verify_live` frontmatter flag).
 - `belgium` , Belgian-specific (default for this KB; use sparingly).
+- `cbn-advies` , a reference page distilling a CBN/CNC advies (the `references/cbn-adviezen/` layer).

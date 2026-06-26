@@ -69,6 +69,13 @@ Last updated: 2026-06-26
 - [[coda-bank-reconciliation]] , import the CODA file, match lines, tie the bank balance.
 - [[expense-categorization]] , route a cost to account + deductibility + VAT treatment.
 
+## references/cbn-adviezen/ (PHASE 2 , authoritative grounding)
+
+Distilled CBN/CNC adviezen that ground the practice pages (citation substrate, not a replacement). See the PHASE 2 note in the loop charter.
+- [[depreciation]] , CBN principles for depreciating fixed assets (linear/degressive, economic life).
+- [[provisions]] , CBN principles for provisions for risks and charges (prudence; art. 33 KB W.Venn.).
+- [[distribution-test]] , the WVV net-asset + liquidity tests a BV must pass before any payout.
+
 ## Reserved files
 
 - [`taxonomy.md`](taxonomy.md) , controlled tags.
