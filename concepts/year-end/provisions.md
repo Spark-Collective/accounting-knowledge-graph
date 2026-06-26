@@ -3,6 +3,8 @@ type: rule
 title: Provisions (voorzieningen) , practice
 description: How to book provisions for risks and charges and reassess them at year-end.
 tags: [year-end, bookkeeping, bv, belgium]
+relations:
+  grounded_by: [provisions-advies]
 sources: [https://www.cbn-cnc.be/nl]
 confidence: medium
 created: 2026-06-26

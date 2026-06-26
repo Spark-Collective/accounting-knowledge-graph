@@ -3,6 +3,9 @@ type: workflow
 title: Expense categorization
 description: Route each cost to the right account, deductibility rule, and VAT treatment.
 tags: [workflows, deductible-costs, vat, belgium]
+relations:
+  part_of: [booking-a-purchase-invoice]
+  requires: [vat-deduction-conditions]
 sources: []
 confidence: high
 created: 2026-06-26

@@ -3,6 +3,8 @@ type: rule
 title: Depreciation (afschrijvingen) , practice
 description: How to depreciate fixed assets in the books and the book-vs-tax difference.
 tags: [year-end, bookkeeping, bv, belgium]
+relations:
+  grounded_by: [depreciation-advies]
 sources: [https://www.cbn-cnc.be/nl, https://financien.belgium.be]
 confidence: medium
 created: 2026-06-26

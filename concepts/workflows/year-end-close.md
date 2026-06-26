@@ -3,6 +3,8 @@ type: workflow
 title: Year-end close
 description: The SOP to close the year, compute the tax, and file the annual accounts + return.
 tags: [workflows, year-end, corporate-tax, bv, belgium]
+relations:
+  requires: [closing-entries, corporate-tax-basics]
 sources: []
 confidence: high
 created: 2026-06-26

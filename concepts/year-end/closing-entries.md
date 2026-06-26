@@ -3,6 +3,10 @@ type: reference
 title: Year-end closing entries
 description: The set of accounting entries that close a financial year before the annual accounts.
 tags: [year-end, bookkeeping, bv, belgium]
+relations:
+  requires: [depreciation, provisions]
+  part_of: [year-end-close]
+  affects: [annual-accounts-nbb]
 sources: [https://www.cbn-cnc.be/nl]
 confidence: medium
 created: 2026-06-26

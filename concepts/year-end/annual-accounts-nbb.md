@@ -3,6 +3,9 @@ type: reference
 title: Annual accounts filing (NBB)
 description: Filing the annual accounts at the NBB; model, deadline, XBRL, and fees.
 tags: [year-end, bv, belgium, verify-live]
+relations:
+  requires: [company-size-criteria]
+  grounded_by: [valuation-rules-advies]
 sources: [https://www.nbb.be/en/central-balance-sheet-office]
 confidence: medium
 created: 2026-06-26

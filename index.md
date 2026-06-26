@@ -76,6 +76,7 @@ Last updated: 2026-06-26
 - [[coda-bank-reconciliation]] , import the CODA file, match lines, tie the bank balance.
 - [[expense-categorization]] , route a cost to account + deductibility + VAT treatment.
 - [[classification-protocol]] , behaviour under uncertainty: conservative defaults + Classified/Assumed/Needs-Input.
+- [[supplier-pattern-library]] , common BE suppliers -> default account/VAT/deductibility.
 - [[year-end-close]] , close the year, compute tax, file the annual accounts + return.
 
 ## references/cbn-adviezen/ (PHASE 2 , authoritative grounding)
