@@ -5,6 +5,7 @@ description: The first step before any booking: scope the engagement, gather fac
 tags: [workflows, belgium]
 relations:
   part_of: [classification-protocol]
+sources: []
 confidence: high
 created: 2026-06-26
 updated: 2026-06-26

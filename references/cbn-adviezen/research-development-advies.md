@@ -3,6 +3,7 @@ type: reference
 title: CBN advies , research and development costs
 description: Research is expensed; development costs may be capitalized under conditions, per the CBN/CNC.
 tags: [cbn-advies, year-end, bookkeeping, bv, belgium]
+sources: [https://www.cbn-cnc.be/nl]
 confidence: medium
 created: 2026-06-26
 updated: 2026-06-26

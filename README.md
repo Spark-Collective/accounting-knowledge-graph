@@ -1,20 +1,43 @@
 # spark-accounting-kb
 
-Belgian-accounting **knowledge graph** for Spark's accounting / booking agents. Distilled practice for **single-person BV (management companies) and freelancers**, in the [Open Knowledge Format](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) / llm-wiki pattern: markdown files, YAML frontmatter, `[[wikilinks]]`, git-versioned, no SDK.
+An open, agent-readable **knowledge graph of Belgian accounting practice** for **single-person BVs (management companies) and freelancers** , in the [Open Knowledge Format](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) / llm-wiki pattern: markdown files, YAML frontmatter, `[[wikilinks]]`, typed `relations:` edges, git-versioned, no SDK or database.
 
-**Design principle:** the KB holds the **stable practice** (how to book, decide, file); precise/changing facts (rates, thresholds, deadlines) are **fetched live** from authoritative sources at use time. See [`AGENTS.md`](AGENTS.md) for the protocol and the **when-to-check-external-sources** rules.
+> **Disclaimer , read this.** This is a general reference for preparing working papers, **not** tax, legal, or accounting advice. Everything produced from it must be reviewed and signed off by a qualified professional (comptable / accountant / belastingadviseur) before filing or acting on it. Rates and rules change , see the freshness rule below.
 
-## Start here
+**Design principle:** the KB holds the **stable practice** (how to book, decide, file). Precise, changing facts (rates, thresholds, deadlines) are **not stored as fact** , they are flagged `verify_live: true` and fetched from the authority at use time. *Read the KB for the method; fetch the source for the number.*
 
-- [`AGENTS.md`](AGENTS.md) , the protocol (structure, frontmatter, wikilinks, external-source policy).
-- [`index.md`](index.md) , navigation: all concepts + workflows by topic.
-- [`sources.md`](sources.md) , authoritative external sources and when to consult each.
+## For AI agents
+
+Start at [`AGENTS.md`](AGENTS.md) , the full protocol: structure, frontmatter, retrieval, the **when-to-check-external-sources** policy, and the typed-edge (`relations:`) layer. Then read [`index.md`](index.md) to navigate.
+
+## For people
+
+- [`index.md`](index.md) , navigation: every concept + workflow by topic.
+- [`sources.md`](sources.md) , the authoritative sources (FOD Financiën, CBN/CNC, NBB, RSVZ) and when to consult each.
 - [`taxonomy.md`](taxonomy.md) , the controlled tag vocabulary.
+
+## It's a graph, not just a wiki
+
+Concepts are atomic and joined by **typed, directed edges** (`unlocks`, `requires`, `gates`, `grounded_by`, `affects`, `alternative_to`, `part_of`) , so an agent can *traverse* relationships, not just read pages. Query and validate with the zero-dependency tool:
+
+```bash
+python3 tools/graph.py --node director-remuneration   # a concept's inbound/outbound edges
+python3 tools/graph.py --lint                          # every page: required frontmatter + >=2 wikilinks
+python3 tools/graph.py --validate                      # typed edges resolve + predicates in vocab
+```
+
+CI runs `--lint` and `--validate` on every PR.
+
+## Contributing
+
+Contributions welcome , see [`CONTRIBUTING.md`](CONTRIBUTING.md). The short version: one concept per file, **distil don't paste**, primary-source the facts, mark changeable facts `verify_live`, link with `[[wikilinks]]`, run the validators, open a small PR.
 
 ## What this is not
 
-- Not the law. It is *practice*, grounded in and citing the law/sources.
-- Not a copy of any third party's content (e.g. astro.tax). Own words, own grounding.
-- Not a place for precise live facts , those are fetched on demand (see the protocol).
+- Not the law , it is *practice*, grounded in and citing the law/sources.
+- Not a copy of anyone's content , own words, own grounding (facts aren't copyrightable; phrasing is).
+- Not a store of precise live facts , those are fetched on demand.
 
-Design rationale and how it fits SparkOS: the Spark workspace note `docs/architecture/accounting-agent-knowledge-base.md`.
+## License
+
+See [`LICENSE`](LICENSE).

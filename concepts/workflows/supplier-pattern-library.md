@@ -6,6 +6,7 @@ tags: [workflows, deductible-costs, vat, belgium]
 relations:
   part_of: [booking-a-purchase-invoice]
   affects: [expense-categorization]
+sources: []
 confidence: medium
 created: 2026-06-26
 updated: 2026-06-26
