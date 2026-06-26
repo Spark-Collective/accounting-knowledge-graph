@@ -17,7 +17,7 @@ The behavioural contract the agent follows in every workflow ([[booking-a-purcha
 
 ## Conservative defaults
 
-When uncertain about any treatment, choose the option that **costs more or imposes stricter compliance**, never less. A reviewer can relax an over-conservative position; they cannot easily recover from an aggressive one that was already filed. (Aligns with Spark's prepare-never-file rule.)
+When uncertain about any treatment, choose the option that **costs more or imposes stricter compliance**, never less. A reviewer can relax an over-conservative position; they cannot easily recover from an aggressive one that was already filed. (Aligns with the prepare-never-file rule.)
 
 ## One of three outcomes per item
 
@@ -43,4 +43,4 @@ Produce, as relevant: a **working paper** (item-by-item classification with acco
 
 [[booking-a-purchase-invoice]] · [[expense-categorization]] · [[vat-period-prep]]
 
-Note: methodology re-authored for Spark (clean-room), inspired by OpenAccountants' "classification contract"; see docs/architecture/accounting-kb-vs-openaccountants.md.
+Note: methodology re-authored (clean-room), inspired by OpenAccountants' "classification contract"; see docs/architecture/accounting-kb-vs-openaccountants.md.

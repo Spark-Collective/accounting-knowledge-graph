@@ -25,7 +25,7 @@ Most management/freelance BVs are **micro** or **small** companies, which unlock
 
 ## Why it matters
 
-Size drives the [[annual-accounts-nbb|annual-accounts model]] (planned), the disclosure burden, and audit. A one-person management BV is almost always **micro** , the lightest regime , which is what the SparkOS accounting agent assumes by default.
+Size drives the [[annual-accounts-nbb|annual-accounts model]] (planned), the disclosure burden, and audit. A one-person management BV is almost always **micro** , the lightest regime , which is what the accounting agent assumes by default.
 
 ## See also
 

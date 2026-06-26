@@ -36,4 +36,4 @@ Default classifications for recurring Belgian suppliers/transaction types , a fa
 
 [[booking-a-purchase-invoice]] · [[expense-categorization]] · [[classification-protocol]]
 
-Note: Spark's own classification list (clean-room), pointing at the rule pages for the numbers. Inspired by OpenAccountants' supplier patterns; no AGPL content copied.
+Note: an original classification list (clean-room), pointing at the rule pages for the numbers. Inspired by OpenAccountants' supplier patterns; no AGPL content copied.

@@ -20,18 +20,18 @@ The business form drives the accounting obligations , this is the first fork.
 - May keep **simplified (single-entry)** bookkeeping below the turnover threshold: a purchases book, a sales book, a financial book.
 - Taxed in **personal income tax** (personenbelasting), progressive rates.
 - No annual accounts to file at the NBB.
-- Fits the polished freelancer SaaS (Accountable, Dexxter); a Spark agent for this case is lighter.
+- Fits the polished freelancer SaaS (Accountable, Dexxter); an agent for this case is lighter.
 
 ## Vennootschap (company, BV / SRL)
 
 - **Must** keep **double-entry** bookkeeping on the [[chart-of-accounts-mar|MAR/PCMN chart]] , record assets, liabilities, depreciation, reserves, provisions.
 - Taxed in **corporate tax** (vennootschapsbelasting); the director draws remuneration.
 - **Must file annual accounts** at the NBB each year (micro/abbreviated scheme for a small company).
-- This is Spark's target case: the agent must handle real double-entry + statutory filing.
+- This is the KB's target case: the agent must handle real double-entry + statutory filing.
 
 ## Why it matters for the agent
 
-The freelancer tools stop at eenmanszaak simplified accounting; a BV needs double-entry + annual accounts, which is exactly the gap the SparkOS accounting agent fills. Everything in [[bookkeeping]] and [[year-end]] assumes a **BV** unless tagged `eenmanszaak`.
+The freelancer tools stop at eenmanszaak simplified accounting; a BV needs double-entry + annual accounts, which is exactly the gap the accounting agent fills. Everything in [[bookkeeping]] and [[year-end]] assumes a **BV** unless tagged `eenmanszaak`.
 
 ## See also
 

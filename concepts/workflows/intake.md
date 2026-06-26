@@ -19,7 +19,7 @@ Runs **before** any classification. It scopes the work, confirms the operator's 
 
 ## Open with the boundary
 
-State it first: *"I prepare your accounting and tax working papers for your accountant to review , I never file anything. A few questions so I can help."* (Spark's prepare-never-file rule.)
+State it first: *"I prepare your accounting and tax working papers for your accountant to review , I never file anything. A few questions so I can help."* (the prepare-never-file rule.)
 
 ## Scope questions (ask as one batch)
 
@@ -49,4 +49,4 @@ Accept whatever documents the operator has (bank statements, sales/purchase invo
 
 [[classification-protocol]] · [[month-end-close]] · [[year-end-close]]
 
-Note: onboarding/refusal pattern re-authored for Spark (clean-room), inspired by OpenAccountants' intake; see docs/architecture/accounting-kb-vs-openaccountants.md.
+Note: onboarding/refusal pattern re-authored (clean-room), inspired by OpenAccountants' intake; see docs/architecture/accounting-kb-vs-openaccountants.md.

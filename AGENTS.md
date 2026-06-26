@@ -1,12 +1,12 @@
-# spark-accounting-kb , agent protocol
+# accounting-knowledge-graph , agent protocol
 
-This repo is a **knowledge graph of Belgian accounting practice** for Spark's accounting and booking agents, written in the **[Open Knowledge Format (OKF)](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)** / llm-wiki pattern: a directory of markdown files, one concept per file, YAML frontmatter, interlinked with `[[wikilinks]]`. No SDK, no database , git is the store, markdown is the contract.
+This repo is a **knowledge graph of Belgian accounting practice** for accounting and booking agents, written in the **[Open Knowledge Format (OKF)](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)** / llm-wiki pattern: a directory of markdown files, one concept per file, YAML frontmatter, interlinked with `[[wikilinks]]`. No SDK, no database , git is the store, markdown is the contract.
 
 Audience: **single-person BV / management companies and freelancers in Belgium.** Scope: practice (how to book, decide, file), not a copy of the law.
 
 ## The core rule: distilled practice in here, live facts out there
 
-This KB holds the **stable, distilled practice** , how to book X, the decision heuristics, the workflows, Spark's conventions. It does **not** hold precise, fast-changing facts (rates, thresholds, amounts, deadlines), because those go stale. For those, the agent **fetches the current value from an authoritative source** ([[sources]]) at use time.
+This KB holds the **stable, distilled practice** , how to book X, the decision heuristics, the workflows and conventions. It does **not** hold precise, fast-changing facts (rates, thresholds, amounts, deadlines), because those go stale. For those, the agent **fetches the current value from an authoritative source** ([[sources]]) at use time.
 
 > Read the KB for the *method*; fetch the live source for the *number*.
 
@@ -65,7 +65,7 @@ review_after: YYYY-MM-DD         # re-verify against sources by this date
 - **Tags come from [[taxonomy]] only.** Need a new tag? Add it to `taxonomy.md` first, then use it.
 - **Confidence honestly.** `high` only when well-supported and stable. Rates/thresholds are `verify_live: true` even if confidence is high on the *rule*.
 - **Cite sources.** On a page synthesizing multiple sources, mark which paragraph traces to which source.
-- **Distil, never paste verbatim.** Write every page in Spark's own words and structure; cite the source in `sources` and mark the paragraph `[source]`. astro.tax is a **collaboration source** (used with Astro's agreement, see [[sources]]) , learn from it, don't reproduce its phrasing.
+- **Distil, never paste verbatim.** Write every page in your own words and structure; cite the source in `sources` and mark the paragraph `[source]`. astro.tax is a **collaboration source** (used with Astro's agreement, see [[sources]]) , learn from it, don't reproduce its phrasing.
 - **Append a `log.md` line** for every substantive change.
 
 ## Typed edges (`relations:`) , the graph layer

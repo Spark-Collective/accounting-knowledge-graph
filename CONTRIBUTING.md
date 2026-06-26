@@ -1,4 +1,4 @@
-# Contributing to spark-accounting-kb
+# Contributing to accounting-knowledge-graph
 
 Thanks for helping build an open, agent-readable knowledge base of Belgian accounting **practice**. This guide is the human on-ramp; the full machine protocol is in [`AGENTS.md`](AGENTS.md) (read it once , agent-assisted contributions are welcome, point your agent at it).
 

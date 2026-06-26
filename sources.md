@@ -22,6 +22,6 @@ The KB cites and is grounded in these. The agent **fetches them live** when it n
 
 ## Collaboration source
 
-- **astro.tax help center** (help.astro.tax/nl) , a practical source for this exact ICP (management/freelance BVs), used **with Astro's agreement** (Spark collaborates with Astro). Use it to learn the practice and to shape coverage.
-  - **Distil, do not reproduce verbatim.** Write each KB page in Spark's own words and structure; cite the astro article in `sources` and mark the paragraph `[astro]`. Facts/rules aren't copyrightable; their phrasing is , don't paste it.
+- **astro.tax help center** (help.astro.tax/nl) , a practical source for this exact ICP (management/freelance BVs), used **with Astro's agreement** (in collaboration with Astro). Use it to learn the practice and to shape coverage.
+  - **Distil, do not reproduce verbatim.** Write each KB page in your own words and structure; cite the astro article in `sources` and mark the paragraph `[astro]`. Facts/rules aren't copyrightable; their phrasing is , don't paste it.
   - Practical figures from astro (percentages, VAA amounts) are `verify_live: true` , confirm the current value with FOD before relying on it.

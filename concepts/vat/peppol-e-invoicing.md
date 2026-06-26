@@ -26,7 +26,7 @@ From **1 January 2026**, structured electronic invoicing via the **Peppol** netw
 
 ## Practice
 
-The business needs a Peppol-capable channel (an access point) to send and receive. Spark routes invoices through a Peppol access point and maps the accounting system's invoice data to the structured format , so the agent's job is to produce clean, complete invoice data (parties, VAT treatment, lines) and confirm delivery, not to hand-build UBL.
+The business needs a Peppol-capable channel (an access point) to send and receive. The access point routes invoices and maps the accounting system's invoice data to the structured format , so the agent's job is to produce clean, complete invoice data (parties, VAT treatment, lines) and confirm delivery, not to hand-build UBL.
 
 Reverse-charge and intracommunity invoices ([[intracommunity-and-medecontractant]]) still need their legal mentions inside the structured invoice.
 

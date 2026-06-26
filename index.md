@@ -1,4 +1,4 @@
-# Index , spark-accounting-kb
+# Index , accounting-knowledge-graph
 
 > Read this first. Navigation + progressive disclosure for the accounting knowledge graph. For the protocol (frontmatter, wikilinks, external-source rules), see [`AGENTS.md`](AGENTS.md).
 
@@ -100,4 +100,4 @@ Distilled CBN/CNC adviezen that ground the practice pages (citation substrate, n
 
 ## How to grow it
 
-Add the topic the next real bookkeeping needs, prove it on Spark's own books, then widen. Each new page: frontmatter + >=2 wikilinks + a `log.md` line. Mark changeable facts `verify_live: true`.
+Add the topic the next real bookkeeping needs, prove it on real books, then widen. Each new page: frontmatter + >=2 wikilinks + a `log.md` line. Mark changeable facts `verify_live: true`.

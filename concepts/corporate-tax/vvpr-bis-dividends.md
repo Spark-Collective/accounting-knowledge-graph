@@ -36,7 +36,7 @@ A separate KMO mechanism: book part of taxed profit to a **liquidation reserve**
 
 ## Why it matters
 
-VVPR-bis vs liquidation reserve vs salary is the core payout-planning decision the SparkOS agent models for a profitable BV , interacting with [[corporate-tax-basics]] and [[director-remuneration]].
+VVPR-bis vs liquidation reserve vs salary is the core payout-planning decision the accounting agent models for a profitable BV , interacting with [[corporate-tax-basics]] and [[director-remuneration]].
 
 ## See also
 

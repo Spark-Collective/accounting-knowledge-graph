@@ -1,6 +1,8 @@
-# spark-accounting-kb
+# accounting-knowledge-graph
 
-An open, agent-readable **knowledge graph of Belgian accounting practice** for **single-person BVs (management companies) and freelancers** , in the [Open Knowledge Format](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) / llm-wiki pattern: markdown files, YAML frontmatter, `[[wikilinks]]`, typed `relations:` edges, git-versioned, no SDK or database.
+An open, agent-readable **knowledge graph of accounting practice** , **currently Belgium** (the structure extends to other jurisdictions) , for **single-person BVs (management companies) and freelancers**, in the [Open Knowledge Format](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) / llm-wiki pattern: markdown files, YAML frontmatter, `[[wikilinks]]`, typed `relations:` edges, git-versioned, no SDK or database.
+
+> Maintained by [Spark Collective](https://github.com/Spark-Collective). Contributions welcome from anyone.
 
 > **Disclaimer , read this.** This is a general reference for preparing working papers, **not** tax, legal, or accounting advice. Everything produced from it must be reviewed and signed off by a qualified professional (comptable / accountant / belastingadviseur) before filing or acting on it. Rates and rules change , see the freshness rule below.
 

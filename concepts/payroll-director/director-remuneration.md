@@ -39,7 +39,7 @@ How a one-person BV pays its director is the central tax-planning decision. The 
 
 ## Why it matters
 
-Salary-vs-dividend is the headline number a freelancer leaves an accounting office to optimize , so it is a flagship SparkOS agent calculation, combining [[corporate-tax-basics]], [[vvpr-bis-dividends]], and [[social-contributions-self-employed]].
+Salary-vs-dividend is the headline number a freelancer leaves an accounting office to optimize , so it is a flagship accounting agent calculation, combining [[corporate-tax-basics]], [[vvpr-bis-dividends]], and [[social-contributions-self-employed]].
 
 ## See also
 

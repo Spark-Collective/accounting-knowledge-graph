@@ -33,7 +33,7 @@ A BV pays corporate tax on its taxable profit. The taxable base starts from the 
 
 ## Why it matters
 
-The EUR 45,000 director-remuneration condition ties corporate tax directly to [[social-contributions-self-employed|director pay]] , a core optimization lever for a one-person BV (enough salary to keep the 20% rate, the rest via dividends). Modelling this is a primary job of the SparkOS accounting agent.
+The EUR 45,000 director-remuneration condition ties corporate tax directly to [[social-contributions-self-employed|director pay]] , a core optimization lever for a one-person BV (enough salary to keep the 20% rate, the rest via dividends). Modelling this is a primary job of the accounting agent.
 
 ## See also
 
