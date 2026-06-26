@@ -63,7 +63,8 @@ Last updated: 2026-06-26
 ### year-end/
 - [[annual-accounts-nbb]] , filing model, 7-month deadline, XBRL, 2026 fees (verify_live).
 - [[depreciation]] , how to book depreciation; book-vs-tax (grounded by [[depreciation-advies]]).
-- _planned: provisions, closing-entries_
+- [[provisions]] , booking provisions for risks and charges (16x / 635-637 / 762).
+- [[closing-entries]] , the year-end entry sequence (depreciation, provisions, cut-off, tax).
 
 ### workflows/ (SOPs the agent runs)
 - [[vat-period-prep]] , prepare a periodic VAT return for review (never auto-file).
@@ -71,6 +72,7 @@ Last updated: 2026-06-26
 - [[month-end-close]] , monthly routine to get the books complete + reconciled.
 - [[coda-bank-reconciliation]] , import the CODA file, match lines, tie the bank balance.
 - [[expense-categorization]] , route a cost to account + deductibility + VAT treatment.
+- [[year-end-close]] , close the year, compute tax, file the annual accounts + return.
 
 ## references/cbn-adviezen/ (PHASE 2 , authoritative grounding)
 
