@@ -8,6 +8,7 @@ Last updated: 2026-06-26
 
 ### company-forms/
 - [[eenmanszaak-vs-vennootschap]] , sole trader vs company (BV/SRL); when to incorporate.
+- [[company-size-criteria]] , micro/small thresholds -> simplifications + annual-accounts model (verify_live).
 
 ### bookkeeping/
 - [[chart-of-accounts-mar]] , the Belgian standardized chart (MAR / PCMN), classes 0-7.
@@ -28,7 +29,8 @@ Last updated: 2026-06-26
 - _planned: vennootschapsbelasting-basics, voorafbetalingen (advance payments)_
 
 ### payroll-director/
-- _planned: director-remuneration, social-contributions, benefits-in-kind-VAA_
+- [[social-contributions-self-employed]] , RSVZ social contributions for self-employed/director (verify_live).
+- _planned: director-remuneration, benefits-in-kind-VAA, salary-vs-dividend-vvpr-bis_
 
 ### year-end/
 - _planned: annual-accounts-nbb, depreciation, provisions, closing-entries_

@@ -7,8 +7,10 @@ The KB cites and is grounded in these. The agent **fetches them live** when it n
 | **FOD Financiën** (financien.belgium.be) | VAT (BTW), corporate tax, Intervat, official rates + deadlines, Peppol mandate | Any rate/threshold/deadline; any real filing; e-invoicing rules. The default for "is this the current number?" |
 | **CBN / CNC** (cbn-cnc.be) | Accounting standards , advices/avis on bookkeeping principles, valuation, the chart | How to treat a transaction correctly; valuation/recognition questions; chart interpretation |
 | **ITAA** (itaa.be) | The accountants/tax-advisors profession , good practice, ethics, guidance | Professional-practice norms; what an accountant would do; standards |
-| **NBB / BNB** (nbb.be) | Annual-accounts filing (the central balance sheet office), models | Year-end filing format, micro/abbreviated schemes, deposit rules |
-| **Het Belgisch Staatsblad / Justel** | The legal text itself (KB/AR, Wetboek) | When the exact legal wording matters (rare; usually CBN/FOD suffice) |
+| **NBB / BNB** (nbb.be/en/central-balance-sheet-office) | Annual-accounts filing (the central balance sheet office), **size criteria/thresholds**, models, XBRL | Year-end filing format, micro/abbreviated schemes, deposit rules, size classification |
+| **RSVZ / INASTI** (rsvz-inasti.fgov.be, nisse.be/en) | Social security for the self-employed and company directors | Contribution rates/minima/caps; main vs secondary activity; director social status |
+| **FPS Economy** (economie.fgov.be) | Accounting law explanations, WVV/CCA obligations, size criteria | How the accounting law applies; company-law (WVV) reporting/governance |
+| **Het Belgisch Staatsblad / Justel** (ejustice.just.fgov.be) | The legal text itself (KB/AR, WVV/CCA, MAR) | When the exact legal wording matters (rare; usually CBN/FOD suffice) |
 
 ## Rules of thumb
 
