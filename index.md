@@ -36,6 +36,7 @@ Last updated: 2026-06-26
 - [[fines]] , traffic/other fines paid by the company but never deductible.
 - [[gifts-relatiegeschenk]] , business gifts 50%; VAT one gift/client/year under EUR 50 (verify_live).
 - [[hybrid-car-rules-2026]] , hybrids ordered from 2026 no longer deductible in the company (verify_live).
+- [[training-costs]] , training deductible + KMO-portefeuille subsidy (Flanders) (verify_live).
 - _planned: home-office, clothing, kilometer-allowance_
 
 ### corporate-tax/
@@ -43,7 +44,9 @@ Last updated: 2026-06-26
 - [[advance-payments]] , quarterly prepayment to avoid the surcharge (verify_live).
 - [[vvpr-bis-dividends]] , reduced dividend withholding 15% (18% from 1 Jul 2026) + conditions (verify_live).
 - [[director-loan-rekening-courant]] , borrowing from the company; debit-R/C interest (verify_live).
-- _planned: dbi-deduction, liquidation-reserve, notional-interest_
+- [[liquidation-reserve]] , KMO payout mechanism; 2025 reform (shorter wait) pending (verify_live).
+- [[investment-deduction]] , deduct part of qualifying investments; reformed from 2025 (verify_live).
+- _planned: dbi-deduction, notional-interest_
 
 ### payroll-director/
 - [[social-contributions-self-employed]] , RSVZ social contributions for self-employed/director (verify_live).
