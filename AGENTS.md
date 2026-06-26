@@ -65,7 +65,7 @@ review_after: YYYY-MM-DD         # re-verify against sources by this date
 - **Tags come from [[taxonomy]] only.** Need a new tag? Add it to `taxonomy.md` first, then use it.
 - **Confidence honestly.** `high` only when well-supported and stable. Rates/thresholds are `verify_live: true` even if confidence is high on the *rule*.
 - **Cite sources.** On a page synthesizing multiple sources, mark which paragraph traces to which source.
-- **Never paste a third party's copyrighted help content** (e.g. astro.tax). Distil practice in Spark's own words, grounded in [[sources]].
+- **Distil, never paste verbatim.** Write every page in Spark's own words and structure; cite the source in `sources` and mark the paragraph `[source]`. astro.tax is a **collaboration source** (used with Astro's agreement, see [[sources]]) , learn from it, don't reproduce its phrasing.
 - **Append a `log.md` line** for every substantive change.
 
 ## Retrieval (how the agent uses this)

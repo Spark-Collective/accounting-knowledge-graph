@@ -20,7 +20,9 @@ Last updated: 2026-06-26
 
 ### deductible-costs/
 - [[car-and-mobility]] , deductibility of car/mobility costs (verify_live).
-- _planned: restaurant-and-reception, gifts-and-relations, home-office, clothing_
+- [[restaurant-and-meals]] , restaurant ~69%, business lunch, VAT not deductible (verify_live).
+- [[ict-equipment]] , iPad/tablet/laptop 100%, VAT ~75%, VAA (verify_live).
+- _planned: gifts-and-relations, home-office, clothing, sponsoring, streaming-subscriptions_
 
 ### corporate-tax/
 - _planned: vennootschapsbelasting-basics, voorafbetalingen (advance payments)_

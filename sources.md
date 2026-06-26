@@ -18,6 +18,8 @@ The KB cites and is grounded in these. The agent **fetches them live** when it n
 - **New tax/budget year or announced reform -> re-verify rates and rules across FOD + CBN.**
 - Prefer the **NL** pages (the operator works in Dutch); FR is the equivalent.
 
-## Reference-only (not a content source)
+## Collaboration source
 
-- **astro.tax help center** , a useful *map of which topics matter* for this ICP. Do **not** copy its content; it is third-party copyrighted help (and Spark's accountant). Use it only to spot gaps in this KB's coverage.
+- **astro.tax help center** (help.astro.tax/nl) , a practical source for this exact ICP (management/freelance BVs), used **with Astro's agreement** (Spark collaborates with Astro). Use it to learn the practice and to shape coverage.
+  - **Distil, do not reproduce verbatim.** Write each KB page in Spark's own words and structure; cite the astro article in `sources` and mark the paragraph `[astro]`. Facts/rules aren't copyrightable; their phrasing is , don't paste it.
+  - Practical figures from astro (percentages, VAA amounts) are `verify_live: true` , confirm the current value with FOD before relying on it.
