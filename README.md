@@ -32,13 +32,13 @@ CI runs `--lint` and `--validate` on every PR.
 
 ### Visualize it
 
-This KB follows the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) (OKF), so it is interoperable with OKF tooling and markdown UIs (Obsidian, MkDocs). Generate a self-contained interactive graph viewer (Cytoscape, no server) , it renders our **typed** edges, labelled and coloured by predicate, with click-to-read:
+This KB follows the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) (OKF), so it is interoperable with OKF tooling and markdown UIs (Obsidian, MkDocs). It also ships a self-contained interactive viewer (force-graph, no server) that renders both layers , the typed `relations:` edges agents traverse and the `[[wikilink]]` reading layer , with click-to-read:
 
 ```bash
-python3 tools/build_viz.py   # writes viz.html , open it in any browser
+python3 tools/graph.py --html        # writes tools/viewer/graph.html , open it in any browser
 ```
 
-The viewer pattern follows Google's OKF reference viewer (Apache-2.0); ours is fed by our richer typed `relations:` graph.
+CI rebuilds it and publishes it to **GitHub Pages** on every push to `main`.
 
 ## Contributing
 
