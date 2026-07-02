@@ -4,6 +4,8 @@ An open, agent-readable **knowledge graph of accounting practice** , **currently
 
 > Maintained by [Spark Collective](https://github.com/Spark-Collective). Contributions welcome from anyone.
 
+> **Browse the live interactive graph → https://spark-collective.github.io/accounting-knowledge-graph/** (rebuilt from the markdown on every push)
+
 > **Disclaimer , read this.** This is a general reference for preparing working papers, **not** tax, legal, or accounting advice. Everything produced from it must be reviewed and signed off by a qualified professional (comptable / accountant / belastingadviseur) before filing or acting on it. Rates and rules change , see the freshness rule below.
 
 **Design principle:** the KB holds the **stable practice** (how to book, decide, file). Precise, changing facts (rates, thresholds, deadlines) are **not stored as fact** , they are flagged `verify_live: true` and fetched from the authority at use time. *Read the KB for the method; fetch the source for the number.*
@@ -38,7 +40,7 @@ This KB follows the [Open Knowledge Format](https://github.com/GoogleCloudPlatfo
 python3 tools/graph.py --html        # writes tools/viewer/graph.html , open it in any browser
 ```
 
-CI rebuilds it and publishes it to **GitHub Pages** on every push to `main`.
+CI rebuilds it and publishes it to **GitHub Pages** on every push to `main` , the live version is at **https://spark-collective.github.io/accounting-knowledge-graph/**.
 
 ## Contributing
 
