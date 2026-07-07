@@ -9,6 +9,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2026-12-31
+aliases: ["hybride wagen", "hybride auto 2026", "plug-in hybride aftrek", "hybride besteld 2026"]
 ---
 
 # Hybrid car deductibility from 2026

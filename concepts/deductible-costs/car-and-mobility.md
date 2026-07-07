@@ -9,6 +9,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2027-01-31
+aliases: ["autokosten", "wagen", "elektrische auto", "aftrekbaarheid wagen", "bedrijfswagen", "mobiliteit"]
 ---
 
 # Deductibility of car and mobility costs

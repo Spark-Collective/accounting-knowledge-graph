@@ -9,6 +9,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2026-09-30
+aliases: ["meerwaardebelasting", "solidariteitsbijdrage aandelen", "meerwaarde aandelen"]
 ---
 
 # Capital gains tax on shares (solidarity contribution)

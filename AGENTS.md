@@ -60,6 +60,7 @@ review_after: YYYY-MM-DD         # re-verify against sources by this date
 
 ## Authoring rules
 
+- **`aliases:` frontmatter (flow list) carries the Dutch/vernacular terms** for the page (e.g. `aliases: ["verkeersboete", "boetes"]` on the fines page). Pages are written in English; real queries arrive in Dutch , aliases close that gap for every consumer (grep, agents, spark-brain retrieval). Add them to every new page.
 - **One concept per file.** Keep it focused; split when it grows.
 - **Link to at least 2 other pages** via `[[wikilinks]]`, and check that related pages link back. Every link is a graph edge.
 - **Tags come from [[taxonomy]] only.** Need a new tag? Add it to `taxonomy.md` first, then use it.

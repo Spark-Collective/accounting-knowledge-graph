@@ -11,6 +11,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2027-01-31
+aliases: ["btw vakken", "roosters btw aangifte", "btw aangifte invullen", "vakken invullen"]
 ---
 
 # VAT return grilles (the boxes)

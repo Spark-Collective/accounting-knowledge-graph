@@ -12,6 +12,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2026-09-30
+aliases: ["liquidatiereserve", "uitkering reserve", "wachttermijn reserve"]
 ---
 
 # Liquidation reserve (liquidatiereserve)

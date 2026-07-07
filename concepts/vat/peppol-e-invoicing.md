@@ -9,6 +9,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2026-09-30
+aliases: ["Peppol", "e-facturatie", "elektronische facturatie", "e-invoicing"]
 ---
 
 # Peppol e-invoicing (mandatory B2B from 2026)

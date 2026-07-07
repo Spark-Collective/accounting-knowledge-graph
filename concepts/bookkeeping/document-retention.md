@@ -9,6 +9,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2027-06-26
+aliases: ["bewaartermijn", "bewaarplicht", "facturen bewaren", "boeken bewaren"]
 ---
 
 # Document retention period

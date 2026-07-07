@@ -9,6 +9,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2027-01-31
+aliases: ["voorafbetalingen", "vermeerdering vermijden", "voorafbetaling vennootschapsbelasting"]
 ---
 
 # Advance payments (voorafbetalingen)

@@ -11,6 +11,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: false
 review_after: 2027-06-26
+aliases: ["intake dossier", "opstart klant"]
 ---
 
 # Intake (scope + onboarding)

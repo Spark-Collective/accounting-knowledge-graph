@@ -9,6 +9,7 @@ created: 2026-06-26
 updated: 2026-06-26
 verify_live: true
 review_after: 2026-12-31
+aliases: ["thuis laden", "laadpaal terugbetaling", "elektrische bedrijfswagen laden", "terugbetaling laden"]
 ---
 
 # EV home-charging reimbursement
