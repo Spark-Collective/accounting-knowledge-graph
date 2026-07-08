@@ -102,13 +102,13 @@ relations:
 
 ## Activation (memory reweighting , okf-graph M6)
 
-This KB is reweighted by use: consultations are logged (OUTSIDE this repo, append-only) and pages accumulate ACT-R activation , frequently/recently consulted pages rank hotter, unused ones decay. The KB files themselves are never written by this mechanism.
+This KB is reweighted by use: consultations are logged OUTSIDE this repo (append-only), in the consuming workspace's committed `activation/` directory (for spark-workspace: `activation/accounting-kb/`, one `<writer>.jsonl` per consumer , git history is the audit trail) and pages accumulate ACT-R activation , frequently/recently consulted pages rank hotter, unused ones decay. The KB files themselves are never written by this mechanism.
 
 **After consulting pages for a task, log the retrieval** (from a checkout with okf-graph built; node ids = file stems):
 
 ```bash
-okf-graph touch <path-to>/concepts <page-id> [<page-id>...]          # consulted
-okf-graph touch <path-to>/concepts <page-id> [<page-id>...] --used   # AND it shaped the answer (weighs double)
+okf-graph touch <path-to>/concepts <page-id>... --log <ws>/activation/accounting-kb/   # consulted
+okf-graph touch <path-to>/concepts <page-id>... --used --log <ws>/activation/accounting-kb/   # AND it shaped the answer (weighs double)
 ```
 
 List pages consulted together in ONE command , co-retrieval strengthens their association edge.
@@ -122,4 +122,4 @@ okf-graph query <path-to>/concepts <node> --inbound --rank-activation   # hottes
 okf-graph viz <path-to>/concepts --weights --out kb.html               # see the living graph
 ```
 
-The `--stale` list is the maintenance queue: high-activation pages marked `verify_live: true` are where a stale rate or deadline does the most damage , re-verify those before anything else. Each consumer (Bookie, an operator) keeps its own log via `--log`; deleting a log loses only that consumer's learned weights.
+The `--stale` list is the maintenance queue: high-activation pages marked `verify_live: true` are where a stale rate or deadline does the most damage , re-verify those before anything else. Each writer gets its own `<writer>.jsonl` inside the log directory (no git conflicts); deleting a writer file loses only that consumer's learned weights.
