@@ -16,6 +16,7 @@ Last updated: 2026-06-26
 - [[double-entry-basics]] , debit/credit, journals + ledger, balance sheet vs P&L.
 - [[document-retention]] , keep books/invoices 10 years (15-25 for real estate) (verify_live).
 - [[withholding-obligation-contractors]] , check contractor tax/social debts before paying + withhold (verify_live).
+- [[reprobel-declaration]] , mandatory annual reprography-levy declaration for BE businesses (verify_live).
 - _planned: journals_
 
 ### vat/
