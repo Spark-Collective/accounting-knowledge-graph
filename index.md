@@ -15,6 +15,7 @@ Last updated: 2026-06-26
 - [[pcmn-account-codes]] , the common sub-account codes a management BV posts to.
 - [[double-entry-basics]] , debit/credit, journals + ledger, balance sheet vs P&L.
 - [[document-retention]] , keep books/invoices 10 years (15-25 for real estate) (verify_live).
+- [[withholding-obligation-contractors]] , check contractor tax/social debts before paying + withhold (verify_live).
 - _planned: journals_
 
 ### vat/
@@ -24,6 +25,7 @@ Last updated: 2026-06-26
 - [[vat-return-grilles]] , the return boxes 00-91, grouped (verify_live; 2025 deadline/provisierekening changes).
 - [[intracommunity-and-medecontractant]] , reverse charge: 0% invoice + mandatory mentions (verify_live).
 - [[peppol-e-invoicing]] , structured B2B e-invoicing mandatory from 2026 (verify_live).
+- [[self-billing]] , customer issues the invoice; VAT conditions + Peppol from 2026 (verify_live).
 - [[annual-client-listing]] , yearly list of Belgian VAT customers over EUR 250, due 31 Mar (verify_live).
 - [[ec-sales-list]] , periodic intracommunity listing, due the 20th (verify_live).
 
@@ -61,6 +63,7 @@ Last updated: 2026-06-26
 - [[benefits-in-kind-vaa]] , VAA on car/housing/phone/internet; valuation + forfaits (verify_live).
 - [[per-diem-domestic-travel]] , tax-free meal allowance for Belgian business trips (verify_live).
 - [[withholding-on-director-pay]] , bedrijfsvoorheffing withheld + remitted on director salary (verify_live).
+- [[meal-vouchers]] , tax-free maaltijdcheques; limited company deduction (verify_live).
 
 ### year-end/
 - [[annual-accounts-nbb]] , filing model, 7-month deadline, XBRL, 2026 fees (verify_live).
