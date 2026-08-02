@@ -19,6 +19,10 @@ Last updated: 2026-06-26
 - [[reprobel-declaration]] , mandatory annual reprography-levy declaration for BE businesses (verify_live).
 - _planned: journals_
 
+### personal-tax/
+- [[personal-income-tax-computation]] , how a director's remuneration becomes the amount on the aanslagbiljet; the four steps that are easy to get backwards (verify_live rates, verified structure).
+- [[personal-tax-return-filing]] , Tax-on-web has no API: what can be automated and what a human must submit (verify_live).
+
 ### vat/
 - [[vat-rates-and-regimes]] , VAT rates, the small-enterprise exemption, special regimes (verify_live).
 - [[vat-deduction-conditions]] , when input VAT is recoverable (professional, correct invoice, right to deduct).
