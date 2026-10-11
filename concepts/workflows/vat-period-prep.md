@@ -9,7 +9,7 @@ relations:
 sources: [https://financien.belgium.be/nl/E-services/Intervat]
 confidence: high
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-10-11
 verify_live: false
 review_after: 2027-06-26
 aliases: ["btw aangifte voorbereiden", "periodieke btw voorbereiding", "kwartaalaangifte"]
@@ -29,6 +29,10 @@ The agent **prepares** the [[periodic-vat-return-intervat|periodic VAT return]] 
 6. **Present for approval.** Produce a short summary (period, boxes, net, flags) for the operator. Generate the Intervat XML only after approval.
 7. **Record.** Log what was prepared; route the artifact to its store. Any recurring issue -> update the relevant KB page.
 
+## Before a quarterly return
+
+Run the [[quarter-close]] workflow first: the independent quarter check, the single correction batch, the quarter-end btw-verrekening. The return is only as good as the quarter behind it; Q3 2026 moved from 5.101,05 to 4.974,80 between the first grid computation and the filed figure.
+
 ## Guardrails
 
 - **Never auto-file.** Outbound to the tax authority needs explicit approval and a live verification against FOD.
@@ -36,4 +40,4 @@ The agent **prepares** the [[periodic-vat-return-intervat|periodic VAT return]] 
 
 ## See also
 
-[[periodic-vat-return-intervat]] · [[vat-rates-and-regimes]] · [[chart-of-accounts-mar]]
+[[periodic-vat-return-intervat]] · [[vat-rates-and-regimes]] · [[chart-of-accounts-mar]] · [[quarter-close]]

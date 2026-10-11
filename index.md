@@ -81,6 +81,7 @@ Last updated: 2026-06-26
 - [[vat-period-prep]] , prepare a periodic VAT return for review (never auto-file).
 - [[booking-a-purchase-invoice]] , capture, split VAT, classify deductibility, book.
 - [[month-end-close]] , monthly routine to get the books complete + reconciled.
+- [[quarter-close]] , the quarterly SOP: independent check, one correction batch, btw-verrekening, return (from Q3 2026).
 - [[coda-bank-reconciliation]] , import the CODA file, match lines, tie the bank balance.
 - [[expense-categorization]] , route a cost to account + deductibility + VAT treatment.
 - [[classification-protocol]] , behaviour under uncertainty: conservative defaults + Classified/Assumed/Needs-Input.
