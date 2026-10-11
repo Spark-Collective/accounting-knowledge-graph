@@ -9,7 +9,7 @@ relations:
 sources: [https://financien.belgium.be/nl/E-services/Intervat]
 confidence: high
 created: 2026-06-26
-updated: 2026-10-11
+updated: 2026-10-12
 verify_live: false
 review_after: 2027-06-26
 aliases: ["btw aangifte voorbereiden", "periodieke btw voorbereiding", "kwartaalaangifte"]
@@ -17,7 +17,7 @@ aliases: ["btw aangifte voorbereiden", "periodieke btw voorbereiding", "kwartaal
 
 # Workflow: prepare a periodic VAT return for review
 
-The agent **prepares** the [[periodic-vat-return-intervat|periodic VAT return]] and presents it for approval. It does **not** file , a real submission is human-approved and verified against FOD (prepare-never-send).
+The agent **prepares** the [[periodic-vat-return-intervat|periodic VAT return]] and presents it for approval. It files only on the operator's explicit, written approval for that exact period (since 2026-10-12: through the ledger's `filings_submit_vat`, which records who approved and refuses without a confirm flag). No approval, no submission.
 
 ## Steps
 
@@ -35,7 +35,7 @@ Run the [[quarter-close]] workflow first: the independent quarter check, the sin
 
 ## Guardrails
 
-- **Never auto-file.** Outbound to the tax authority needs explicit approval and a live verification against FOD.
+- **Never file on your own initiative.** Outbound to the tax authority needs the operator's explicit written approval for that period; the submission tool records it. Show the full return (every box, the declarant, the XML) before asking.
 - If figures don't reconcile, **stop and escalate** , do not file an unbalanced return.
 
 ## See also
